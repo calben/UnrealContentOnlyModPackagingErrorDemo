@@ -1,0 +1,49 @@
+{
+  "projectName": [
+    "# the project name",
+    "UnrealModdingTest"
+  ],
+  "projectFile": [
+    "# the .uproject file to build",
+    "D:\\Unreal Projects\\UnrealModdingTest\\UnrealModdingTest.uproject"
+  ],
+  "buildConfig": [
+    "# 'DebugGame', 'Development', or 'Shipping'",
+    "Development"
+  ],
+  "targetPlatform": [
+    "# Unreal build target platform",
+    "Win64"
+  ],
+  "platformDirName": [
+    "# The name unreal will give to StagedBuild platform directories",
+    "WindowsNoEditor"
+  ],
+  "buildLog": [
+    "# where to output AutomationTool.exe messages",
+    ".ue4build.log"
+  ],
+  "outputPath": [
+    "# will copy the build tree to this destination",
+    "D:\\Unreal Projects\\UnrealModdingTest\\Releases\\ModBuild"
+  ],
+  "uatCommand": [
+    "# path to the RunUAT batch or shell script",
+    "D:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Build\\BatchFiles\\RunUAT.bat"
+  ],
+  "modPlugins": [
+    "# list of plugins to treat as dlc mods",
+    [
+      {
+        "name": [
+          "# Name of the Mod (DLC) plugin",
+          "ContentOnlyMod"
+        ],
+        "asMod": [
+          "# if 'true' will be handled as a mod",
+          true
+        ]
+      }
+    ]
+  ]
+}
